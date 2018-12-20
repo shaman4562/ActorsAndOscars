@@ -1,0 +1,27 @@
+<resources>
+  <string name="app_name">Lecture3 Lists</string>
+  <string name="app_name_2">Actors and oscars </string>
+
+  <string name="title_listview">ListView</string>
+  <string name="title_recyclerview">RecyclerView</string>
+
+  <string name="actor_no_oscar">No Oscar for %1$s :-(</string>
+  <string name="actor_with_oscar">And the Oscar goes to… %1$s!</string>
+
+  <string name="menu_action_switch">Switch</string>
+  <string name="menu_action_sort">Сортировка</string>
+  <string name="has_oskar">Есть оскар</string>
+  <string name="dont_has_oskar">Нет оскара</string>
+  <string name="all_actors">Все актеры</string>
+
+  <string name="cancel">Отмена</string>
+  <string name="add_oskar">Добавить оскар</string>
+  <string name="remove_oskar">Убрать оскар</string>
+  <string name="remove_actor">Удалить актера</string>
+  <string name="search_internet">Искать в интернете</string>
+
+  <string name="yes">Да</string>
+  <string name="no">Нет</string>
+  <string name="are_you_sure">Вы уверены?</string>
+
+</resources>
