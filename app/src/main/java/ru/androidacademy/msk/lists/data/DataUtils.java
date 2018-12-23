@@ -1,12 +1,11 @@
 package ru.androidacademy.msk.lists.data;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DataUtils {
 
-    public static List<Actor> generateActors() {
-        List<Actor> actors = new ArrayList<>();
+    public static ArrayList<Actor> generateActors() {
+        ArrayList<Actor> actors = new ArrayList<>();
         actors.add(new Actor("Alicia Vikander", "https://image.ibb.co/nKNBrd/Alicia_Vikander.jpg", true));
         actors.add(new Actor("Amanda Seyfried", "https://image.ibb.co/j142xJ/Amanda_Seyfried.jpg", false));
         actors.add(new Actor("Anne Hathaway", "https://image.ibb.co/euy6Py/Anne_Hathaway.jpg", true));

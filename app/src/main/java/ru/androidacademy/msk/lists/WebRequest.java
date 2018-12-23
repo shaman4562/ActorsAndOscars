@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class WebRequest extends AppCompatActivity {
 
-    static String url = "";
+    public static String url = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,16 +19,18 @@ public class WebRequest extends AppCompatActivity {
         setContentView(R.layout.web_activity);
 
         Bundle arguments = getIntent().getExtras();
-        url = arguments.get("url").toString();
+        if (arguments != null) {
+            url = arguments.get("url").toString();
+        }
 
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
-                    .add(R.id.web_container, new CustomWebViewFragment())
+                    .add(R.id.web_container, new WebFragment())
                     .commit();
         }
     }
 
-    public static class CustomWebViewFragment extends WebViewFragment {
+    public static class WebFragment extends WebViewFragment {
 
         @Override
         public void onCreate(Bundle savedInstanceState) {

@@ -19,9 +19,18 @@
   <string name="remove_oskar">Убрать оскар</string>
   <string name="remove_actor">Удалить актера</string>
   <string name="search_internet">Искать в интернете</string>
+  <string name="default_settings">Вернуть все как было</string>
 
   <string name="yes">Да</string>
   <string name="no">Нет</string>
   <string name="are_you_sure">Вы уверены?</string>
+
+
+  <string name="DIRECTORY">/save/</string>
+  <string name="EXTENSION">.jpg</string>
+    <string name="enter_actor_name">Введите имя актера</string>
+    <string name="oscar">Оскар</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="add_actor">Добавить актера</string>
 
 </resources>

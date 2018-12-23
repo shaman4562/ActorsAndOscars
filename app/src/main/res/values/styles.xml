@@ -5,12 +5,32 @@
 
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorAccent">@color/colorPrimary</item>
+    <!-- Точки и треугольник меню -->
+    <item name="android:textColorSecondary">@color/colorAbsolutelyWhite</item>
+
   </style>
 
   <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <!-- Кнопки -->
     <item name="colorAccent">@color/colorAbsolutelyWhite</item>
     <item name="android:background">@color/colorPrimary</item>
+    <!-- Заголовок -->
+    <item name="android:textColor">@color/colorAbsolutelyWhite</item>
+    <!-- Элементы списка -->
+    <item name="android:textColorAlertDialogListItem">@color/colorAbsolutelyWhite</item>
+  </style>
+
+
+  <!-- -->>
+  <style name="MenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow" >
+    <item name="android:background">@color/colorPrimary</item>
+    <item name="android:textColorPrimary">@color/colorAbsolutelyWhite</item>
+  </style>
+
+  <style name="CheckBoxStyle" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorControlNormal">@color/colorPrimary</item>
+    <item name="colorControlActivated">@color/colorPrimary</item>
   </style>
 
 </resources>
